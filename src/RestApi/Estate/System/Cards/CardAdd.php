@@ -1,7 +1,7 @@
 <?php
 
 
-namespace HikCloud\RestApi\Estate\Cards;
+namespace HikCloud\RestApi\Estate\System\Cards;
 
 
 use HikCloud\RestApi\HikRestApi;
