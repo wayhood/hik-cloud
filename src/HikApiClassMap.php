@@ -86,8 +86,8 @@ class HikApiClassMap
 
             //卡片管理
             'Card' => [
-                'Add' => 'HikCloud\\RestApi\\Estate\\Devices\\CardAdd',
-                'Open' => 'HikCloud\\RestApi\\Estate\\Devices\\CardOpen'
+                'Add' => 'HikCloud\\RestApi\\Estate\\Card\\CardAdd',
+                'Open' => 'HikCloud\\RestApi\\Estate\\Card\\CardOpen'
             ]
         ],
 
