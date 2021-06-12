@@ -82,6 +82,12 @@ class HikApiClassMap
             'Devices' => [
                 'List' => 'HikCloud\\RestApi\\Estate\\Devices\\DeviceList',
                 'ChannelList' => 'HikCloud\\RestApi\\Estate\\Devices\\DeviceChannelList',
+            ],
+
+            //卡片管理
+            'Card' => [
+                'Add' => 'HikCloud\\RestApi\\Estate\\Devices\\CardAdd'
+                'Open' => 'HikCloud\\RestApi\\Estate\\Devices\\CardOpen'
             ]
         ],
 
