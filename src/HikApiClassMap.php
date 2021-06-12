@@ -43,6 +43,7 @@ class HikApiClassMap
                 'List' => 'HikCloud\\RestApi\\Estate\\System\\Rooms\\RoomList',
                 'ListByCommunityId' => 'HikCloud\\RestApi\\Estate\\System\\Rooms\\RoomCommunityList'
             ],
+            
             //住户管理
             'Person'=>[
                 'Add' => 'HikCloud\\RestApi\\Estate\\System\\Person\\PersonAdd',
@@ -90,19 +91,15 @@ class HikApiClassMap
                 'Open' => 'HikCloud\\RestApi\\Estate\\Cards\\CardOpen'
             ],
 
-            //房屋管理
-            'Rooms' => [
-                'CommunityRoomList' => 'HikCloud\\RestApi\\Estate\\Rooms\\CommunityRoomList',
-                'UnitRoomList' => 'HikCloud\\RestApi\\Estate\\Rooms\\UnitRoomList',
-            ],
+            // //房屋管理
+            // 'Rooms' => [
+            //     'CommunityRoomList' => 'HikCloud\\RestApi\\Estate\\Rooms\\CommunityRoomList',
+            //     'UnitRoomList' => 'HikCloud\\RestApi\\Estate\\Rooms\\UnitRoomList',
+            // ],
 
-            'Buildings' => [
-                'CommunityBuildingList' => 'HikCloud\\RestApi\\Estate\\Buildings\\CommunityBuildingList'
-            ],
-
-            'Units' => [
-                'BuildingUnitList' => 'HikCloud\\RestApi\\Estate\\Units\\BuildingUnitList'
-            ],
+            // 'Units' => [
+            //     'BuildingUnitList' => 'HikCloud\\RestApi\\Estate\\Units\\BuildingUnitList'
+            // ],
         ],
 
        
