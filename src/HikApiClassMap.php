@@ -74,7 +74,8 @@ class HikApiClassMap
                 'DeviceList' => 'HikCloud\\RestApi\\Estate\\EntranceGuard\\Actions\\DeviceList',
                 'FaceIssued' => 'HikCloud\\RestApi\\Estate\\EntranceGuard\\Actions\\FaceIssued',
                 'DeleteFaceIssued' => 'HikCloud\\RestApi\\Estate\\EntranceGuard\\Actions\\DeleteFaceIssued',
-                'GateControl' => 'HikCloud\\RestApi\\Estate\\EntranceGuard\\Actions\\GateControl'
+                'GateControl' => 'HikCloud\\RestApi\\Estate\\EntranceGuard\\Actions\\GateControl',
+                'GetQrCode' => 'HikCloud\\RestApi\\Estate\\EntranceGuard\\Actions\\GetQrCode',
             ],
 
             //设备管理
