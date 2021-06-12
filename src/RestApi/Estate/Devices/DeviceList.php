@@ -10,9 +10,9 @@ class DeviceList extends HikRestApi
 {
 
     protected $api = '/api/v1/estate/devices/actions/listByCommunityId';
-    
 
-    public $method = 'GET';
+
+    public $method = 'POST';
 
     protected $required_params = [
         'communityId' => '',
