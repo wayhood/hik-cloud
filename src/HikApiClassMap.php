@@ -85,10 +85,20 @@ class HikApiClassMap
             ],
 
             //卡片管理
-            'Card' => [
-                'Add' => 'HikCloud\\RestApi\\Estate\\Card\\CardAdd',
-                'Open' => 'HikCloud\\RestApi\\Estate\\Card\\CardOpen'
-            ]
+            'Cards' => [
+                'Add' => 'HikCloud\\RestApi\\Estate\\Cards\\CardAdd',
+                'Open' => 'HikCloud\\RestApi\\Estate\\Cards\\CardOpen'
+            ],
+
+            //房屋管理
+            communityRoomList
+            'Rooms' => [
+                'CommunityRoomList' => 'HikCloud\\RestApi\\Estate\\Rooms\\CommunityRoomList'
+            ],
+
+            'Buildings' => [
+                'CommunityBuildingList' => 'HikCloud\\RestApi\\Estate\\Buildings\\CommunityBuildingList'
+            ],
         ],
 
        
