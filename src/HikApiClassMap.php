@@ -92,11 +92,16 @@ class HikApiClassMap
 
             //房屋管理
             'Rooms' => [
-                'CommunityRoomList' => 'HikCloud\\RestApi\\Estate\\Rooms\\CommunityRoomList'
+                'CommunityRoomList' => 'HikCloud\\RestApi\\Estate\\Rooms\\CommunityRoomList',
+                'UnitRoomList' => 'HikCloud\\RestApi\\Estate\\Rooms\\UnitRoomList',
             ],
 
             'Buildings' => [
                 'CommunityBuildingList' => 'HikCloud\\RestApi\\Estate\\Buildings\\CommunityBuildingList'
+            ],
+
+            'Units' => [
+                'BuildingUnitList' => 'HikCloud\\RestApi\\Estate\\Units\\BuildingUnitList'
             ],
         ],
 
