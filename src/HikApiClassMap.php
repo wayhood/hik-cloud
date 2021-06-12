@@ -91,7 +91,6 @@ class HikApiClassMap
             ],
 
             //房屋管理
-            communityRoomList
             'Rooms' => [
                 'CommunityRoomList' => 'HikCloud\\RestApi\\Estate\\Rooms\\CommunityRoomList'
             ],
