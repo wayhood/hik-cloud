@@ -20,6 +20,6 @@ class CardOpen extends HikRestApi
     ];
 
     protected $optional_params = [
-        'dviceIds' = []
+        'dviceIds' => []
     ];
 }
