@@ -14,11 +14,7 @@ class GateControl extends HikRestApi
 
     protected $required_params = [
         'personId' => '',
-        'personType' => '',
-        'faceUrl' => ''
-    ];
-
-    protected $optional_params = [
         'deviceId' => ''
+        'command' => ''
     ];
 }
